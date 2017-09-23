@@ -1,4 +1,4 @@
-noDpuOnRight = false;
+noDpuOnRight = true;
 
 nameOfDpuOnRight = "Ben";
 
