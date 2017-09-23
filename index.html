@@ -20,10 +20,17 @@
 <body>
   <table width="100%">
     <tr>
-      <td class="user-cell" width="30%"></td>
-      <td class="user-cell" width="30%"><button type="button" onclick="go()">Go!</button></td>
-      <td class="user-cell" width="30%"></td>
+      <td id="dpuOnLeft" class="user-cell" width="30%"></td>
+      <td id="dpu" class="user-cell" width="30%"><button type="button"
+        onclick="go()">Go!</button></td>
+      <td id="dpuOnRight" class="user-cell" width="30%"><button type="button"
+        onclick="alert(nameOfDpuOnRight); afterDpuOnRightSaysName();">Say Name</button></td>
     </tr>
   </table>
+  <script>
+    if (noDpuOnRight) {
+      document.getElementById('dpuOnRight').hidden = true;
+    }
+  </script>
 </body>
 </html>
