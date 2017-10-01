@@ -9,7 +9,7 @@ First open Atom and see if you already have the code available from last week. I
 3. Select your Desktop and then click "Save"
 4. Now click the "Open" button
 5. _Drag_ the "dpu-master" folder on the right onto the Desktop on the left
-6. In Atom, choose the File menu, then Add Project Folder, and select the "dpu-master" folder from the Desktop
+6. In Atom, in the File menu, choose Add Project Folder, and select the "dpu-master" folder from the Desktop
 
 ## Running the Code
 To open the DPU web page, use Explorer to go into Desktop\\dpu-master and double-click on the "index" file.
@@ -19,7 +19,7 @@ When you have edited some code, remember to:
 2. Refresh the web page to see what has happened!
 
 ## Exercises
-1. Change the DPU's name
+1. Change the DPU's name _(clue: look closely at the function `sayYourName` in built-ins.js)_
 2. Create a new built-in variable called `yourName` with a value _(clue: look at `nameOfDpuOnRight`)_
 3. Use `yourName` in `sayYourName` _(clue: replace `"George"`)_
 4. Create a _function parameter_ for `sayYourName` called `whatToSay` _(clue: Google "javascript function parameter")_
