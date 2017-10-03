@@ -2,8 +2,6 @@
 For learning to code!
 
 ## Getting the Code
-First open Atom and see if you already have the code available from last week. If not, you need to download the folder again from here. **Try to do it by yourself**, but if you run into trouble, here are some clues:
-
 1. Click the green "Clone or download" button above and select "Download ZIP"
 2. When the banner appears at the bottom of the page, click the "Save As..." button
 3. Select your home drive and then click "Save"
