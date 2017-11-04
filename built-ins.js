@@ -3,9 +3,15 @@ noDpuOnRight = true;
 nameOfDpuOnRight = "Ben";
 
 sayYourName = function () {
-  alert("George");
+  alert(yourName);
 };
 
 waitForDpuOnRight = function (whatThen) {
   afterDpuOnRightSaysName = whatThen;
 };
+
+yourName = "George";
+
+sayHello = function () {
+  alert("Hello");
+}
